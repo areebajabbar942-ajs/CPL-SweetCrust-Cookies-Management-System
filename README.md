@@ -15,6 +15,43 @@ A C++ console-based Cookie Shop Management System using file handling and struct
 - Cancel Orders
 - Cancellation Fine Calculation
 - File Handling
+  
+## file structure
+SweetCrust-Cookies-Management-System
+│
+├── main.cpp
+│   ├── Structures
+│   ├── CheckChoice()
+│   └── main()
+│
+├── customer.cpp
+│   ├── CheckName()
+│   ├── CheckCNIC()
+│   ├── CheckCNICFormat()
+│   ├── CheckContact()
+│   ├── CheckCustomer()
+│   ├── Cus_registration()
+│   └── read_customers()
+│
+├── cookies.cpp
+│   ├── GetCookieName()
+│   ├── GetCookiePrice()
+│   ├── write_cookies()
+│   ├── read_Cookies()
+│   ├── CheckStock()
+│   └── Stockupdate()
+│
+├── orders.cpp
+│   ├── CheckNumber()
+│   ├── CheckYN()
+│   ├── CheckQuantity()
+│   ├── CheckOrderID()
+│   ├── customize_gift_box()
+│   ├── write_Bookings()
+│   ├── read_Bookings()
+│   ├── BookOrder()
+│   ├── searchCustomerorder()
+│   └── CancelOrder()
 
 ## Files
 Cookies.txt
