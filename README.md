@@ -20,59 +20,50 @@ A C++ console-based Cookie Shop Management System using file handling and struct
 
 SweetCrust-Cookies-Management-System/
 │
-├── customer.cpp
-│   ├── // Customer Structure
-│   ├── // Validation Functions
-│   │   ├── CheckName()
-│   │   ├── CheckCNIC()
-│   │   ├── CheckCNICFormat()
-│   │   └── CheckContact()
-│   ├── // Customer Functions
-│   │   ├── Cus_registration()
-│   │   ├── read_customers()
-│   │   └── CheckCustomer()
-│   └── // End of customer.cpp
-│
-├── cookies.cpp
-│   ├── // Cookies Structure
-│   ├── // Validation Functions
-│   │   ├── CheckCookieID()
-│   │   ├── CheckCookieIDInput()
-│   │   ├── CheckPrice()
-│   │   ├── CheckStock(int&)
-│   │   └── CheckQuantity()
-│   ├── // Cookie Functions
-│   │   ├── write_cookies()
-│   │   ├── read_Cookies()
-│   │   ├── GetCookieName()
-│   │   ├── GetCookiePrice()
-│   │   ├── CheckStock(int,int)
-│   │   └── Stockupdate()
-│   └── // End of cookies.cpp
-│
-├── orders.cpp
-│   ├── // Order Structure
-│   ├── // Validation Functions
-│   │   ├── CheckOrderID()
-│   │   ├── CheckOrderIDInput()
-│   │   └── CheckYN()
-│   ├── // Order Functions
-│   │   ├── write_Bookings()
-│   │   ├── read_Bookings()
-│   │   ├── customize_gift_box()
-│   │   ├── BookOrder()
-│   │   ├── searchCustomerorder()
-│   │   └── CancelOrder()
-│   └── // End of orders.cpp
-│
 ├── main.cpp
-│   ├── // Menu Validation
-│   │   └── CheckChoice()
-│   ├── // Main Function
-│   │   └── main()
-│   └── // End of main.cpp
 │
-└── README.md
+├── Structures
+│   ├── customers
+│   ├── cookies
+│   └── order
+│
+├── Customer Functions
+│   ├── CheckName()
+│   ├── CheckCNIC()
+│   ├── CheckCNICFormat()
+│   ├── CheckContact()
+│   ├── CheckCustomer()
+│   ├── Cus_registration()
+│   └── read_customers()
+│
+├── Cookie Functions
+│   ├── GetCookieName()
+│   ├── GetCookiePrice()
+│   ├── CheckCookieID()
+│   ├── CheckCookieIDInput()
+│   ├── CheckStock()
+│   ├── Stockupdate()
+│   ├── write_cookies()
+│   └── read_Cookies()
+│
+├── Order Functions
+│   ├── CheckOrderID()
+│   ├── CheckOrderIDInput()
+│   ├── CheckQuantity()
+│   ├── CheckYN()
+│   ├── customize_gift_box()
+│   ├── write_Bookings()
+│   ├── read_Bookings()
+│   ├── BookOrder()
+│   ├── searchCustomerorder()
+│   └── CancelOrder()
+│
+├── Validation Functions
+│   ├── CheckPrice()
+│   ├── CheckStock(int&)
+│   └── CheckChoice()
+│
+└── main()
 
 ## Files
 Cookies.txt
