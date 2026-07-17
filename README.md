@@ -18,38 +18,61 @@ A C++ console-based Cookie Shop Management System using file handling and struct
   
 ## File Structure
 
-```text
-Hotel-Management-System
-│
-├── main.cpp
-│   ├── Structures
-│   └── main()
+SweetCrust-Cookies-Management-System/
 │
 ├── customer.cpp
-│   ├── WriteFor_Customers()
-│   ├── ReadFrom_Customers()
-│   └── Search_Customer()
+│   ├── // Customer Structure
+│   ├── // Validation Functions
+│   │   ├── CheckName()
+│   │   ├── CheckCNIC()
+│   │   ├── CheckCNICFormat()
+│   │   └── CheckContact()
+│   ├── // Customer Functions
+│   │   ├── Cus_registration()
+│   │   ├── read_customers()
+│   │   └── CheckCustomer()
+│   └── // End of customer.cpp
 │
-├── rooms.cpp
-│   ├── WriteFor_Rooms()
-│   ├── ReadFrom_Rooms()
-│   ├── search_rooms()
-│   ├── updateRoom()
-│   ├── cancel_room()
-│   └── checkAvailability()
+├── cookies.cpp
+│   ├── // Cookies Structure
+│   ├── // Validation Functions
+│   │   ├── CheckCookieID()
+│   │   ├── CheckCookieIDInput()
+│   │   ├── CheckPrice()
+│   │   ├── CheckStock(int&)
+│   │   └── CheckQuantity()
+│   ├── // Cookie Functions
+│   │   ├── write_cookies()
+│   │   ├── read_Cookies()
+│   │   ├── GetCookieName()
+│   │   ├── GetCookiePrice()
+│   │   ├── CheckStock(int,int)
+│   │   └── Stockupdate()
+│   └── // End of cookies.cpp
 │
-├── booking.cpp
-│   ├── getDaysInMonth()
-│   ├── MakeBooking()
-│   ├── check_bill()
-│   ├── viewbookings()
-│   └── cancel_booking()
+├── orders.cpp
+│   ├── // Order Structure
+│   ├── // Validation Functions
+│   │   ├── CheckOrderID()
+│   │   ├── CheckOrderIDInput()
+│   │   └── CheckYN()
+│   ├── // Order Functions
+│   │   ├── write_Bookings()
+│   │   ├── read_Bookings()
+│   │   ├── customize_gift_box()
+│   │   ├── BookOrder()
+│   │   ├── searchCustomerorder()
+│   │   └── CancelOrder()
+│   └── // End of orders.cpp
 │
-├── Customers.txt
-├── Rooms.txt
-├── Bookings.txt
+├── main.cpp
+│   ├── // Menu Validation
+│   │   └── CheckChoice()
+│   ├── // Main Function
+│   │   └── main()
+│   └── // End of main.cpp
+│
 └── README.md
-```
 
 ## Files
 Cookies.txt
