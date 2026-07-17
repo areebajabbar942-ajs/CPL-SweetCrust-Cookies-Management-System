@@ -18,6 +18,7 @@ A C++ console-based Cookie Shop Management System using file handling and struct
   
 ## File Structure
 
+```text
 SweetCrust-Cookies-Management-System/
 │
 ├── main.cpp
@@ -64,7 +65,7 @@ SweetCrust-Cookies-Management-System/
 │   └── CheckChoice()
 │
 └── main()
-
+```
 ## Files
 Cookies.txt
 Stores
