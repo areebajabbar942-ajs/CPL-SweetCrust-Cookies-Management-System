@@ -16,44 +16,40 @@ A C++ console-based Cookie Shop Management System using file handling and struct
 - Cancellation Fine Calculation
 - File Handling
   
-## file structure
-text**
-SweetCrust-Cookies-Management-System
+## File Structure
+
+```text
+Hotel-Management-System
 │
 ├── main.cpp
 │   ├── Structures
-│   ├── CheckChoice()
 │   └── main()
 │
 ├── customer.cpp
-│   ├── CheckName()
-│   ├── CheckCNIC()
-│   ├── CheckCNICFormat()
-│   ├── CheckContact()
-│   ├── CheckCustomer()
-│   ├── Cus_registration()
-│   └── read_customers()
+│   ├── WriteFor_Customers()
+│   ├── ReadFrom_Customers()
+│   └── Search_Customer()
 │
-├── cookies.cpp
-│   ├── GetCookieName()
-│   ├── GetCookiePrice()
-│   ├── write_cookies()
-│   ├── read_Cookies()
-│   ├── CheckStock()
-│   └── Stockupdate()
+├── rooms.cpp
+│   ├── WriteFor_Rooms()
+│   ├── ReadFrom_Rooms()
+│   ├── search_rooms()
+│   ├── updateRoom()
+│   ├── cancel_room()
+│   └── checkAvailability()
 │
-├── orders.cpp
-│   ├── CheckNumber()
-│   ├── CheckYN()
-│   ├── CheckQuantity()
-│   ├── CheckOrderID()
-│   ├── customize_gift_box()
-│   ├── write_Bookings()
-│   ├── read_Bookings()
-│   ├── BookOrder()
-│   ├── searchCustomerorder()
-│   └── CancelOrder()
-**
+├── booking.cpp
+│   ├── getDaysInMonth()
+│   ├── MakeBooking()
+│   ├── check_bill()
+│   ├── viewbookings()
+│   └── cancel_booking()
+│
+├── Customers.txt
+├── Rooms.txt
+├── Bookings.txt
+└── README.md
+```
 
 ## Files
 Cookies.txt
